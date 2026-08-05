@@ -75,21 +75,13 @@
       "type": "string",
       "pattern": "^\\d{8}\\-[nvars]$"
     },
-    "senseId": {
-      "type": "string",
-      "pattern": "^.*$"
-    },
     "senseKey": {
       "type": "string",
-      "pattern": "^[a-zA-Zñ0-9 \\-\\.,!/':_]+\\%\\d+:\\d+:\\d+:[a-z0-9_'/\\-\\.]*:\\d*$"
-    },
-    "lemmaStrict": {
-      "type": "string",
-      "pattern": "^[a-zA-Zñ0-9 \\-\\.,!/':]+$"
+      "pattern": "^[a-zA-Zñêòç0-9 \\-\\.\\+,!/':_]+\\%\\d+:\\d+:\\d+:[a-z0-9_'/\\-\\.]*:\\d*$"
     },
     "lemma": {
       "type": "string",
-      "pattern": "^.+$"
+      "pattern": "^[a-zA-Zñêòç0-9 \\-\\.\\+,!/':]+$"
     },
     "synsetType": {
       "type": "string",
@@ -364,7 +356,7 @@
       "type": "object",
       "properties": {
         "senseId": {
-          "$ref": "#/$defs/senseId"
+          "$ref": "#/$defs/senseKey"
         },
         "lexId": {
           "$ref": "#/$defs/lexId"
