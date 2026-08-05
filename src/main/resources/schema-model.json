@@ -96,6 +96,9 @@
         "S"
       ]
     },
+    "discriminant": {
+      "type": "string"
+    },
     "lexId": {
       "type": "object",
       "properties": {
@@ -103,10 +106,10 @@
           "$ref": "#/$defs/lemma"
         },
         "type": {
-          "$ref": "#/$defs/synsetType"
+          "$ref": "#/$defs/part-of-speech"
         },
         "discriminant": {
-          "type": "string"
+          "$ref": "#/$defs/discriminant"
         }
       },
       "required": [
@@ -265,12 +268,12 @@
           "$ref": "#/$defs/part-of-speech"
         },
         "discriminant": {
-          "type": "string"
+          "$ref": "#/$defs/discriminant"
         },
         "senseKeys": {
           "type": "array",
           "items": {
-            "type": "string"
+            "$ref": "#/$defs/senseKey"
           }
         },
         "pronunciations": {
@@ -305,10 +308,10 @@
       "type": "object",
       "properties": {
         "synsetId": {
-          "type": "string"
+          "$ref": "#/$defs/synsetId"
         },
         "type": {
-          "type": "string"
+          "$ref": "#/$defs/synsetType"
         },
         "domain": {
           "type": "string"
