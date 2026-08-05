@@ -377,7 +377,7 @@
           "items": {
             "type": "string"
           }
-       },
+        },
         "examples": {
           "type": "array"
         },
