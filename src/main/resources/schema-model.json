@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "anyOf": [
     {
-      "$ref": "#/$defs/originalSchema"
+      "$ref": "#/$defs/flat"
     },
     {
       "type": "object",
@@ -26,23 +26,15 @@
           }
         },
         "verbFrames": {
-          "properties": {
-            "id": {
-              "type": "string"
-            },
-            "frame": {
-              "type": "string"
-            }
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/verbFrame"
           }
         },
         "verbTemplates": {
-          "properties": {
-            "id": {
-              "type": "number"
-            },
-            "template": {
-              "type": "string"
-            }
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/verbTemplate"
           }
         }
       },
@@ -51,11 +43,11 @@
         "synsets",
         "senses"
       ],
-      "additionalProperties": true
+      "additionalProperties": false
     }
   ],
   "$defs": {
-    "originalSchema": {
+    "flat": {
       "type": "array",
       "items": {
         "anyOf": [
@@ -67,6 +59,12 @@
           },
           {
             "$ref": "#/$defs/sense"
+          },
+          {
+            "$ref": "#/$defs/verbFrame"
+          },
+          {
+            "$ref": "#/$defs/verbTemplate"
           }
         ]
       }
@@ -408,6 +406,36 @@
         "senseId",
         "lexId",
         "synsetId"
+      ],
+      "additionalProperties": false
+    },
+    "verbFrame": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "frame": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "frame"
+      ],
+      "additionalProperties": false
+    },
+    "verbTemplate": {
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "template": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "template"
       ],
       "additionalProperties": false
     }
