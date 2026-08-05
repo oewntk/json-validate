@@ -71,15 +71,20 @@
     },
     "synsetId": {
       "type": "string",
-      "pattern": "^\\d{8}\\-[nvars]$"
-    },
-    "senseKey": {
-      "type": "string",
-      "pattern": "^[a-zA-Zñêòç0-9 \\-\\.\\+,!/':_]+\\%\\d+:\\d+:\\d+:[a-z0-9_'/\\-\\.]*:\\d*$"
+      "pattern": "^\\d{8}-[nvars]$"
     },
     "lemma": {
       "type": "string",
-      "pattern": "^[a-zA-Zñêòç0-9 \\-\\.\\+,!/':]+$"
+      "pattern": "^[a-zA-Zñêòç0-9 \\-.+,!/':]+$"
+    },
+    "part-of-speech": {
+      "type": "string",
+      "enum": [
+        "N",
+        "V",
+        "A",
+        "R"
+       ]
     },
     "synsetType": {
       "type": "string",
@@ -109,6 +114,10 @@
         "type"
       ],
       "additionalProperties": false
+    },
+    "senseKey": {
+      "type": "string",
+      "pattern": "^[a-zA-Zñêòç0-9 \\-.+,!/':_]+%\\d+:\\d+:\\d+:[a-z0-9_'/\\-.]*:\\d*$"
     },
     "synsetRelation": {
       "type": "string",
@@ -250,10 +259,10 @@
       "type": "object",
       "properties": {
         "lemma": {
-          "type": "string"
+          "$ref": "#/$defs/lemma"
         },
         "type": {
-          "type": "string"
+          "$ref": "#/$defs/part-of-speech"
         },
         "discriminant": {
           "type": "string"
