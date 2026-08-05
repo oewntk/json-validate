@@ -187,6 +187,56 @@
         "vehicle"
       ]
     },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "all",
+        "pert",
+        "ppl",
+        "all",
+        "act",
+        "animal",
+        "artifact",
+        "attribute",
+        "body",
+        "cognition",
+        "communication",
+        "event",
+        "feeling",
+        "food",
+        "group",
+        "location",
+        "motive",
+        "object",
+        "person",
+        "phenomenon",
+        "plant",
+        "possession",
+        "process",
+        "quantity",
+        "relation",
+        "shape",
+        "state",
+        "substance",
+        "time",
+        "Tops",
+        "body",
+        "change",
+        "cognition",
+        "communication",
+        "competition",
+        "consumption",
+        "contact",
+        "creation",
+        "emotion",
+        "motion",
+        "perception",
+        "possession",
+        "social",
+        "stative",
+        "weather"
+      ]
+    },
     "lexFile": {
       "type": "string",
       "enum": [
@@ -314,14 +364,20 @@
           "$ref": "#/$defs/synsetType"
         },
         "domain": {
-          "type": "string"
+          "$ref": "#/$defs/domain"
         },
         "members": {
-          "type": "array"
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/lemma"
+          }
         },
         "definitions": {
-          "type": "array"
-        },
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+       },
         "examples": {
           "type": "array"
         },
