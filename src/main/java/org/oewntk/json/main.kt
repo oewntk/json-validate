@@ -57,7 +57,7 @@ fun main(args: Array<String>) {
             errors
                 .take(25)
                 .forEach { error ->
-                    println("  - Path: ${error.property} | Message: ${error.message}")
+                    println("  - Path: ${error.property} | Message: ${error.message} Instance: ${error.instanceNode}")
                 }
         }
     }
