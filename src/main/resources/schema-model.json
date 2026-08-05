@@ -379,10 +379,25 @@
           }
         },
         "examples": {
-          "type": "array"
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              }
+            },
+            "required": ["text"]
+          }
         },
         "usages": {
-          "type": "array"
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         },
         "relations": {
           "type": "object",
