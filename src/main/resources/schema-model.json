@@ -75,7 +75,7 @@
     },
     "lemma": {
       "type": "string",
-      "pattern": "^[a-zA-Zñêòç0-9 \\-.+,!/':]+$"
+      "pattern": "^[a-zA-Z\\u00C0-\\u00D6\\u00D8-\\u00F60-9 \\-.+,!/':]+$"
     },
     "part-of-speech": {
       "type": "string",
@@ -84,7 +84,7 @@
         "V",
         "A",
         "R"
-       ]
+      ]
     },
     "synsetType": {
       "type": "string",
@@ -120,7 +120,7 @@
     },
     "senseKey": {
       "type": "string",
-      "pattern": "^[a-zA-Zñêòç0-9 \\-.+,!/':_]+%\\d+:\\d+:\\d+:[a-z0-9_'/\\-.]*:\\d*$"
+      "pattern": "^[a-zA-Z\\u00C0-\\u00D6\\u00D8-\\u00F60-9 \\-.+,!/':_]+%\\d+:\\d+:\\d+:[a-z0-9_'/\\-.]*:\\d*$"
     },
     "synsetRelation": {
       "type": "string",
@@ -168,7 +168,6 @@
         "participle",
         "pertainym",
         "similar",
-
         "agent",
         "body_part",
         "by_means_of",
@@ -287,6 +286,20 @@
         "verb.weather"
       ]
     },
+    "example": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
     "adjPosition": {
       "type": "string",
       "enum": [
@@ -381,16 +394,7 @@
         "examples": {
           "type": "array",
           "items": {
-            "type": "object",
-            "properties": {
-              "text": {
-                "type": "string"
-              },
-              "source": {
-                "type": "string"
-              }
-            },
-            "required": ["text"]
+            "$ref": "#/$defs/example"
           }
         },
         "usages": {
@@ -412,12 +416,12 @@
           }
         },
         "ili": {
-          "type": "string"
+          "$ref": "#/$defs/ili"
         },
         "wikidata": {
           "type": "array",
           "items": {
-            "type": "string"
+            "$ref": "#/$defs/wikidata"
           }
         },
         "source": {
@@ -443,10 +447,11 @@
           "$ref": "#/$defs/lexId"
         },
         "synsetId": {
-          "type": "string"
+          "$ref": "#/$defs/synsetId"
         },
         "indexInLex": {
-          "type": "number"
+          "type": "number",
+          "minimum": 0
         },
         "relations": {
           "type": "object",
@@ -461,12 +466,13 @@
           }
         },
         "tagCount": {
-          "type": "number"
+          "type": "number",
+          "minimum": 0
         },
         "examples": {
           "type": "array",
           "items": {
-            "type": "object"
+            "$ref": "#/$defs/example"
           }
         },
         "adjPosition": {
