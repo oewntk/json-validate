@@ -19,46 +19,38 @@ class Validator(schema: String, asString: Boolean = false) {
     fun validate(json: String): List<Error> = schema.validate(json, InputFormat.JSON)
 }
 
-// Test Schema
-val schemaJson = """
-        {
-          "${'$'}schema-model.json": "https://json-schema.org/draft/2020-12/schema",
-          "type": "object",
-          "properties": {
-            "synsetId": { "type": "string" },
-            "type": { "type": "string" },
-            "domain": { "type": "string" },
-            "members": { "type": "array" },
-            "definitions": { "type": "array" },
-            "examples": { "type": "array" },
-            "relations": { "type": "object" }
-          },
-          "required": ["synsetId", "type", "domain", "members", "definitions"]
-        }
-        """.trimIndent()
+private fun toSchema(selector: String): String {
+    when (selector) {
+        "model" -> return "schema-model.json"
+        "data" -> return "schema-data.json"
+        "oewn" -> return "schema-oewn.json"
+        else -> throw IllegalArgumentException("Invalid schema selector $selector")
+    }
+}
 
 fun main(args: Array<String>) {
 
-    //val validator = Validator("schema-model.json-from-xml.json")
     //val validator = Validator(schemaJson, asString = true)
-    val validator = Validator("schema-model.json")
-    for (f in args) {
-        // Data node
-        val jsonString = File(f).readText()
+    val validator = Validator(toSchema(args[0]))
+    args.asSequence()
+        .drop(1)
+        .forEach { f ->
+            // Data node
+            val jsonString = File(f).readText()
 
-        // Validate
-        val errors = validator.validate(jsonString)
+            // Validate
+            val errors = validator.validate(jsonString)
 
-        // Result
-        if (errors.isEmpty()) {
-            println("$f is valid!")
-        } else {
-            println("❌ Validation of $f failed with ${errors.size} error(s):")
-            errors
-                .take(25)
-                .forEach { error ->
-                    println("  - Path: ${error.property} | Message: ${error.message} Instance: ${error.instanceNode}")
-                }
+            // Result
+            if (errors.isEmpty()) {
+                println("$f is valid!")
+            } else {
+                println("❌ Validation of $f failed with ${errors.size} error(s):")
+                errors
+                    .take(25)
+                    .forEach { error ->
+                        println("  - Path: ${error.property} | Message: ${error.message} | Instance: ${error.instanceNode}")
+                    }
+            }
         }
-    }
 }

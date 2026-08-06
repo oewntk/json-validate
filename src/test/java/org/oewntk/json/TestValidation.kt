@@ -7,6 +7,24 @@ import org.junit.Test
 class TestValidation {
 
     // Test Schema
+    val oewnSchemaJson = """
+        {
+          "${'$'}schema-model.json": "https://json-schema.org/draft/2020-12/schema",
+          "type": "object",
+          "properties": {
+            "synsetId": { "type": "string" },
+            "type": { "type": "string" },
+            "domain": { "type": "string" },
+            "members": { "type": "array" },
+            "definitions": { "type": "array" },
+            "examples": { "type": "array" },
+            "relations": { "type": "object" }
+          },
+          "required": ["synsetId", "type", "domain", "members", "definitions"]
+        }
+        """.trimIndent()
+
+    // Test Schema
     val schemaJson = """
         {
           "${'$'}schema-model.json": "https://json-schema.org/draft/2020-12/schema",
@@ -39,16 +57,16 @@ class TestValidation {
 
     @Test
     fun testValid() {
-        val errors = validator.validate(validator.getNode(inputJson))
+        val errors = validator.validate(inputJson)
         assertTrue(errors.isEmpty())
     }
 
     @Test
     fun testInvalid() {
-        val errors = validator.validate(validator.getNode(invalidInputJson))
+        val errors = validator.validate(invalidInputJson)
         assertFalse(errors.isEmpty())
         errors.forEach { error ->
-            println("- Path: ${error.property} | Message: ${error.message}")
+            println("- Path: ${error.property} | Message: ${error.message} | Instance: ${error.instanceNode}")
         }
     }
 }
