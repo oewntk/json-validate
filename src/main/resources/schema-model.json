@@ -2,9 +2,36 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "anyOf": [
     {
-      "$ref": "#/$defs/flat"
+      "$ref": "#/$defs/bag"
     },
     {
+      "$ref": "#/$defs/grouped_by_object_type"
+    }
+  ],
+  "$defs": {
+    "bag": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/lex"
+          },
+          {
+            "$ref": "#/$defs/synset"
+          },
+          {
+            "$ref": "#/$defs/sense"
+          },
+          {
+            "$ref": "#/$defs/verbFrame"
+          },
+          {
+            "$ref": "#/$defs/verbTemplate"
+          }
+        ]
+      }
+    },
+    "grouped_by_object_type": {
       "type": "object",
       "properties": {
         "lexes": {
@@ -44,30 +71,6 @@
         "senses"
       ],
       "additionalProperties": false
-    }
-  ],
-  "$defs": {
-    "flat": {
-      "type": "array",
-      "items": {
-        "anyOf": [
-          {
-            "$ref": "#/$defs/lex"
-          },
-          {
-            "$ref": "#/$defs/synset"
-          },
-          {
-            "$ref": "#/$defs/sense"
-          },
-          {
-            "$ref": "#/$defs/verbFrame"
-          },
-          {
-            "$ref": "#/$defs/verbTemplate"
-          }
-        ]
-      }
     },
     "synsetId": {
       "type": "string",
@@ -189,36 +192,12 @@
     "domain": {
       "type": "string",
       "enum": [
-        "all",
-        "pert",
-        "ppl",
-        "all",
+        "Tops",
         "act",
+        "all",
         "animal",
         "artifact",
         "attribute",
-        "body",
-        "cognition",
-        "communication",
-        "event",
-        "feeling",
-        "food",
-        "group",
-        "location",
-        "motive",
-        "object",
-        "person",
-        "phenomenon",
-        "plant",
-        "possession",
-        "process",
-        "quantity",
-        "relation",
-        "shape",
-        "state",
-        "substance",
-        "time",
-        "Tops",
         "body",
         "change",
         "cognition",
@@ -228,11 +207,30 @@
         "contact",
         "creation",
         "emotion",
+        "event",
+        "feeling",
+        "food",
+        "group",
+        "location",
         "motion",
+        "motive",
+        "object",
         "perception",
+        "person",
+        "pert",
+        "phenomenon",
+        "plant",
         "possession",
+        "ppl",
+        "process",
+        "quantity",
+        "relation",
+        "shape",
         "social",
+        "state",
         "stative",
+        "substance",
+        "time",
         "weather"
       ]
     },
