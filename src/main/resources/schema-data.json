@@ -1,76 +1,37 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "anyOf": [
-    {
-      "$ref": "#/$defs/bag"
-    },
-    {
-      "$ref": "#/$defs/grouped_by_object_type"
-    }
-  ],
+  "$ref": "#/$defs/bag",
   "$defs": {
     "bag": {
-      "type": "array",
-      "items": {
-        "anyOf": [
-          {
-            "$ref": "#/$defs/lex"
-          },
-          {
-            "$ref": "#/$defs/synset"
-          },
-          {
-            "$ref": "#/$defs/sense"
-          },
-          {
-            "$ref": "#/$defs/verbFrame"
-          },
-          {
-            "$ref": "#/$defs/verbTemplate"
-          }
-        ]
-      }
-    },
-    "grouped_by_object_type": {
-      "type": "object",
-      "properties": {
-        "lexes": {
+      "anyOf": [
+        {
           "type": "array",
           "items": {
-            "$ref": "#/$defs/lex"
+            "anyOf": [
+              {
+                "$ref": "#/$defs/lex"
+              },
+              {
+                "$ref": "#/$defs/synset"
+              },
+              {
+                "$ref": "#/$defs/sense"
+              }
+            ]
           }
         },
-        "synsets": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/synset"
-          }
-        },
-        "senses": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/sense"
-          }
-        },
-        "verbFrames": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/verbFrame"
-          }
-        },
-        "verbTemplates": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/verbTemplate"
-          }
+        {
+          "type": "object",
+          "anyOf": [
+            {
+              "$ref": "#/$defs/verbFrame"
+            },
+            {
+              "$ref": "#/$defs/verbTemplate"
+            }
+          ]
         }
-      },
-      "required": [
-        "lexes",
-        "synsets",
-        "senses"
-      ],
-      "additionalProperties": false
+      ]
     },
     "synsetId": {
       "type": "string",
@@ -320,7 +281,7 @@
     },
     "wikidata": {
       "type": "string",
-      "pattern": "^Q[0-9]+$"
+      "pattern": "^Q[0-9]+(;Q[0-9]+)*$"
     },
     "ili": {
       "type": "string",
@@ -425,10 +386,7 @@
           "$ref": "#/$defs/ili"
         },
         "wikidata": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/wikidata"
-          }
+          "$ref": "#/$defs/wikidata"
         },
         "source": {
           "type": "string"
@@ -506,34 +464,23 @@
       "additionalProperties": false
     },
     "verbFrame": {
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "frame": {
-          "type": "string"
-        }
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
       },
-      "required": [
-        "id",
-        "frame"
-      ],
-      "additionalProperties": false
+      "additionalProperties": {
+        "type": "string"
+      }
     },
     "verbTemplate": {
-      "properties": {
-        "id": {
-          "type": "number"
-        },
-        "template": {
-          "type": "string"
-        }
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^\\d+$"
       },
-      "required": [
-        "id",
-        "template"
-      ],
-      "additionalProperties": false
+      "additionalProperties": {
+        "type": "string"
+      }
     }
   }
 }
