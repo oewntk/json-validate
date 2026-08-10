@@ -1,0 +1,17 @@
+[
+{
+    "senseId": "row%1:07:00::",
+    "lexId": {
+        "lemma": "row",
+        "type": "N",
+        "discriminant": "-1"
+    },
+    "synsetId": "05052831-n",
+    "indexInLex": 4,
+    "relations": {
+        "collocation": [
+            "break%1:04:01::"
+        ]
+    }
+}
+]

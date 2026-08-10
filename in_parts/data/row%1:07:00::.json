@@ -1,0 +1,15 @@
+[
+{
+    "id": "row%1:07:00::",
+    "index": 4,
+    "synset": "05052831-n",
+    "lemma": "row",
+    "type": "n",
+    "discriminant": "-1",
+    "relation": {
+        "collocation": [
+            "break%1:04:01::"
+        ]
+    }
+}
+]

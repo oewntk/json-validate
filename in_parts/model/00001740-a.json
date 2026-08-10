@@ -1,0 +1,34 @@
+[
+{
+    "synsetId": "00001740-a",
+    "type": "A",
+    "domain": "all",
+    "members": [
+        "able"
+    ],
+    "definitions": [
+        "(usually followed by ‘to’) having the necessary means or skill or know-how or authority to do something"
+    ],
+    "examples": [
+        {
+            "text": "able to swim"
+        },
+        {
+            "text": "She was able to program her computer."
+        },
+        {
+            "text": "We were at last able to buy a car."
+        },
+        {
+            "text": "able to get a grant for the project"
+        }
+    ],
+    "relations": {
+        "attribute": [
+            "05207437-n",
+            "05624029-n"
+        ]
+    },
+    "ili": "i1"
+}
+]

@@ -1,0 +1,20 @@
+[
+{
+    "senseId": "row%1:14:01::",
+    "lexId": {
+        "lemma": "row",
+        "type": "N",
+        "discriminant": "-1"
+    },
+    "synsetId": "08450457-n",
+    "indexInLex": 3,
+    "relations": {
+        "collocation": [
+            "arrangement%1:14:00::",
+            "column%1:14:01::",
+            "matrix%1:14:00::",
+            "number%1:23:00::"
+        ]
+    }
+}
+]

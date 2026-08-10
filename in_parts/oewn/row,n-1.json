@@ -1,0 +1,63 @@
+[
+{
+    "pronunciation": [
+        {
+            "value": "ɹəʊ"
+        }
+    ],
+    "sense": [
+        {
+            "collocation": [
+                "arrange%2:35:00::",
+                "arrangement%1:14:00::",
+                "bank%1:14:01::",
+                "chair%1:06:00::",
+                "line%1:10:02::",
+                "point%1:25:02::",
+                "seat%1:15:01::"
+            ],
+            "id": "row%1:14:00::",
+            "synset": "08448447-n",
+            "tagcount": 23
+        },
+        {
+            "collocation": [
+                "cloud%1:17:00::",
+                "run%1:11:01::"
+            ],
+            "id": "row%1:17:00::",
+            "synset": "09440243-n",
+            "tagcount": 1
+        },
+        {
+            "id": "row%1:06:00::",
+            "synset": "03124680-n",
+            "tagcount": 1
+        },
+        {
+            "collocation": [
+                "arrangement%1:14:00::",
+                "column%1:14:01::",
+                "matrix%1:14:00::",
+                "number%1:23:00::"
+            ],
+            "id": "row%1:14:01::",
+            "synset": "08450457-n"
+        },
+        {
+            "collocation": [
+                "break%1:04:01::"
+            ],
+            "id": "row%1:07:00::",
+            "synset": "05052831-n"
+        },
+        {
+            "derivation": [
+                "row%2:38:00::"
+            ],
+            "id": "row%1:04:00::",
+            "synset": "00446336-n"
+        }
+    ]
+}
+]

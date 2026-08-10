@@ -1,0 +1,128 @@
+{
+    "lexes": [
+        {
+            "lemma": "row",
+            "type": "N",
+            "discriminant": "-1",
+            "senseKeys": [
+                "row%1:14:00::",
+                "row%1:17:00::",
+                "row%1:06:00::",
+                "row%1:14:01::",
+                "row%1:07:00::",
+                "row%1:04:00::"
+            ],
+            "pronunciations": [
+                {
+                    "value": "ɹəʊ"
+                }
+            ]
+        },
+        {
+            "lemma": "row",
+            "type": "N",
+            "discriminant": "-2",
+            "senseKeys": [
+                "row%1:10:00::"
+            ],
+            "pronunciations": [
+                {
+                    "value": "ɹaʊ"
+                }
+            ]
+        },
+        {
+            "lemma": "row",
+            "type": "V",
+            "senseKeys": [
+                "row%2:38:00::"
+            ],
+            "pronunciations": [
+                {
+                    "value": "ɹəʊ"
+                }
+            ]
+        }
+    ],
+    "senses": [
+        {
+            "senseId": "row%1:04:00::",
+            "lexId": {
+                "lemma": "row",
+                "type": "N",
+                "discriminant": "-1"
+            },
+            "synsetId": "00446336-n",
+            "indexInLex": 5,
+            "relations": {
+                "derivation": [
+                    "row%2:38:00::"
+                ]
+            }
+        },
+        {
+            "senseId": "row%1:06:00::",
+            "lexId": {
+                "lemma": "row",
+                "type": "N",
+                "discriminant": "-1"
+            },
+            "synsetId": "03124680-n",
+            "indexInLex": 2,
+            "tagCount": 1
+        }
+    ],
+    "synsets": [
+        {
+            "synsetId": "00001740-n",
+            "type": "N",
+            "domain": "Tops",
+            "members": [
+                "entity"
+            ],
+            "definitions": [
+                "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)"
+            ],
+            "relations": {
+                "hyponym": [
+                    "00001930-n",
+                    "00002137-n",
+                    "04431553-n"
+                ]
+            },
+            "ili": "i35545"
+        },
+        {
+            "synsetId": "00001740-a",
+            "type": "A",
+            "domain": "all",
+            "members": [
+                "able"
+            ],
+            "definitions": [
+                "(usually followed by ‘to’) having the necessary means or skill or know-how or authority to do something"
+            ],
+            "examples": [
+                {
+                    "text": "able to swim"
+                },
+                {
+                    "text": "She was able to program her computer."
+                },
+                {
+                    "text": "We were at last able to buy a car."
+                },
+                {
+                    "text": "able to get a grant for the project"
+                }
+            ],
+            "relations": {
+                "attribute": [
+                    "05207437-n",
+                    "05624029-n"
+                ]
+            },
+            "ili": "i1"
+        }
+    ]
+}

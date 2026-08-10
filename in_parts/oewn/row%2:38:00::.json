@@ -1,0 +1,37 @@
+[
+{
+    "agent": [
+        "rower%1:18:00::"
+    ],
+    "collocation": [
+        "boat%1:06:00::",
+        "dinghy%1:06:00::",
+        "lake%1:17:00::",
+        "wind%1:19:00::"
+    ],
+    "derivation": [
+        "row%1:04:00::",
+        "rower%1:18:00::",
+        "rowing%1:04:00::"
+    ],
+    "event": [
+        "row%1:04:00::"
+    ],
+    "id": "row%2:38:00::",
+    "sent": [
+        "They row the river",
+        "They row down the river"
+    ],
+    "subcat": [
+        "via",
+        "via-pp",
+        "vtai"
+    ],
+    "synset": "01950855-v",
+    "tagcount": 4,
+    "template": [
+        27,
+        28
+    ]
+}
+]

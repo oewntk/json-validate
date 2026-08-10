@@ -1,0 +1,400 @@
+[
+[
+    {
+        "form": [
+            "grew",
+            "grown"
+        ],
+        "pronunciation": [
+            {
+                "value": "ɡɹəʊ",
+                "variety": "GB"
+            },
+            {
+                "value": "ɡɹoʊ",
+                "variety": "US"
+            }
+        ],
+        "sense": [
+            {
+                "collocation": [
+                    "alcoholic%1:18:00::",
+                    "importance%1:07:00::"
+                ],
+                "derivation": [
+                    "growth%1:11:01::"
+                ],
+                "id": "grow%2:30:03::",
+                "sent": [
+                    "John will grow angry"
+                ],
+                "subcat": [
+                    "vii-adj",
+                    "vii-pp",
+                    "vtii-adj"
+                ],
+                "synset": "00125649-v",
+                "tagcount": 70,
+                "template": [
+                    109
+                ]
+            },
+            {
+                "also": [
+                    "grow_up%2:41:00::"
+                ],
+                "collocation": [
+                    "anxiety%1:12:00::",
+                    "appetite%1:12:00::",
+                    "applause%1:10:00::",
+                    "apprehension%1:12:00::",
+                    "assurance%1:09:00::",
+                    "basis%1:24:01::",
+                    "business%1:14:00::",
+                    "city%1:15:00::",
+                    "clamor%1:10:00::",
+                    "collection%1:14:00::",
+                    "company%1:14:01::",
+                    "confidence%1:12:00::",
+                    "crowd%1:14:00::",
+                    "deficit%1:21:00::",
+                    "demand%1:22:00::",
+                    "discomfort%1:12:00::",
+                    "discontentment%1:12:00::",
+                    "dividend%1:21:00::",
+                    "economy%1:14:00::",
+                    "empire%1:14:01::",
+                    "enterprise%1:14:00::",
+                    "enthusiasm%1:12:00::",
+                    "evidence%1:10:01::",
+                    "excitement%1:12:00::",
+                    "exportation%1:04:00::",
+                    "fame%1:26:02::",
+                    "fire%1:22:00::",
+                    "firm%1:14:00::",
+                    "gross%1:21:00::",
+                    "heat%1:07:01::",
+                    "hope%1:12:00::",
+                    "hunger%1:07:00::",
+                    "import%1:06:00::",
+                    "income%1:21:00::",
+                    "indignation%1:12:00::",
+                    "industry%1:04:00::",
+                    "intensity%1:07:00::",
+                    "interest%1:09:00::",
+                    "irritation%1:26:00::",
+                    "likelihood%1:07:00::",
+                    "malaise%1:26:00::",
+                    "market%1:14:00::",
+                    "net_income%1:21:00::",
+                    "noise%1:11:00::",
+                    "number%1:07:00::",
+                    "number%1:23:00::",
+                    "pain%1:09:00::",
+                    "panic%1:12:00::",
+                    "percentage%1:24:00::",
+                    "popularity%1:07:00::",
+                    "population%1:23:00::",
+                    "proportion%1:24:00::",
+                    "queue%1:14:00::",
+                    "rate%1:28:00::",
+                    "reputation%1:09:00::",
+                    "resentment%1:12:00::",
+                    "restlessness%1:26:00::",
+                    "rupture%1:11:00::",
+                    "sale%1:04:02::",
+                    "savings%1:21:00::",
+                    "size%1:07:00::",
+                    "spending%1:21:00::",
+                    "suburb%1:15:00::",
+                    "support%1:09:00::",
+                    "tendency%1:15:00::",
+                    "tension%1:26:00::",
+                    "town%1:15:00::",
+                    "trade%1:04:01::",
+                    "traffic%1:14:00::",
+                    "turnover%1:07:00::",
+                    "volume%1:23:00::",
+                    "width%1:07:00::",
+                    "year%1:28:01::"
+                ],
+                "derivation": [
+                    "growth%1:22:02::"
+                ],
+                "id": "grow%2:30:00::",
+                "sent": [
+                    "The business is going to grow"
+                ],
+                "subcat": [
+                    "via",
+                    "vii"
+                ],
+                "synset": "00231172-v",
+                "tagcount": 62,
+                "template": [
+                    135
+                ]
+            },
+            {
+                "collocation": [
+                    "area%1:15:01::",
+                    "bang%1:08:00::",
+                    "barley%1:20:00::",
+                    "beard%1:08:00::",
+                    "bulb%1:20:00::",
+                    "corn%1:20:00::",
+                    "crystal%1:27:00::",
+                    "flower%1:20:02::",
+                    "food%1:03:00::",
+                    "grass%1:20:00::",
+                    "hair%1:08:00::",
+                    "height%1:07:00::",
+                    "herb%1:20:00::",
+                    "ivy%1:20:00::",
+                    "length%1:07:00::",
+                    "mold%1:20:00::",
+                    "nettle%1:20:00::",
+                    "oat%1:20:00::",
+                    "root%1:20:00::",
+                    "seed%1:20:02::",
+                    "shoot%1:20:00::",
+                    "shrub%1:20:00::",
+                    "soil%1:17:00::",
+                    "species%1:14:00::",
+                    "tree%1:20:00::",
+                    "vegetation%1:14:00::",
+                    "weed%1:20:00::",
+                    "wing%1:05:00::",
+                    "plant%1:03:00::"
+                ],
+                "derivation": [
+                    "growing%1:22:00::",
+                    "growth%1:22:00::"
+                ],
+                "id": "grow%2:30:02::",
+                "sent": [
+                    "Did his feet grow?"
+                ],
+                "subcat": [
+                    "vii",
+                    "vii-pp"
+                ],
+                "synset": "00231983-v",
+                "tagcount": 32,
+                "template": [
+                    144
+                ]
+            },
+            {
+                "agent": [
+                    "grower%1:18:00::"
+                ],
+                "collocation": [
+                    "bean%1:20:00::",
+                    "bulb%1:20:00::",
+                    "business%1:14:00::",
+                    "corn%1:13:00::",
+                    "field%1:15:00::",
+                    "flower%1:20:02::",
+                    "grass%1:20:00::",
+                    "ivy%1:20:00::",
+                    "leaf%1:20:00::",
+                    "soil%1:17:00::",
+                    "plant%1:03:00::"
+                ],
+                "derivation": [
+                    "grower%1:18:00::",
+                    "growing%1:22:00::",
+                    "growth%1:22:00::"
+                ],
+                "id": "grow%2:30:01::",
+                "sent": [
+                    "They grow rye in the field"
+                ],
+                "subcat": [
+                    "vtai"
+                ],
+                "synset": "00246343-v",
+                "tagcount": 12,
+                "template": [
+                    56
+                ]
+            },
+            {
+                "collocation": [
+                    "child%1:18:00::",
+                    "family%1:14:02::"
+                ],
+                "derivation": [
+                    "growing%1:22:00::",
+                    "growth%1:22:00::",
+                    "growth%1:22:01::"
+                ],
+                "id": "grow%2:30:04::",
+                "sent": [
+                    "Sam and Sue grow"
+                ],
+                "subcat": [
+                    "via",
+                    "vii"
+                ],
+                "synset": "00251067-v",
+                "tagcount": 8,
+                "template": [
+                    14
+                ]
+            },
+            {
+                "collocation": [
+                    "movement%1:14:00::"
+                ],
+                "derivation": [
+                    "growth%1:11:01::"
+                ],
+                "id": "grow%2:42:00::",
+                "subcat": [
+                    "vii"
+                ],
+                "synset": "02630344-v",
+                "tagcount": 7
+            },
+            {
+                "agent": [
+                    "grower%1:18:00::"
+                ],
+                "collocation": [
+                    "barley%1:20:00::",
+                    "bean%1:20:00::",
+                    "bee%1:05:00::",
+                    "beer%1:13:00::",
+                    "cannabis%1:20:00::",
+                    "captivity%1:26:02::",
+                    "cereal%1:20:00::",
+                    "cheese%1:13:00::",
+                    "chicken%1:13:00::",
+                    "coconut%1:20:01::",
+                    "corn%1:20:00::",
+                    "cotton%1:20:00::",
+                    "crop%1:20:01::",
+                    "farm%1:06:00::",
+                    "fish%1:05:00::",
+                    "flower%1:20:02::",
+                    "food%1:03:00::",
+                    "grain%1:20:01::",
+                    "ham%1:13:00::",
+                    "hectare%1:23:00::",
+                    "hog%1:05:00::",
+                    "hog%1:05:02::",
+                    "horse%1:05:00::",
+                    "legume%1:20:00::",
+                    "mushroom%1:20:02::",
+                    "oat%1:20:00::",
+                    "olive%1:20:01::",
+                    "one%1:23:00::",
+                    "onion%1:20:00::",
+                    "opera%1:06:00::",
+                    "opera%1:10:00::",
+                    "parsley%1:20:00::",
+                    "peasant%1:18:00::",
+                    "pot%1:06:04::",
+                    "produce%1:13:00::",
+                    "rice%1:20:00::",
+                    "scale%1:24:00::",
+                    "seed%1:20:02::",
+                    "soil%1:17:00::",
+                    "tea%1:20:00::",
+                    "technique%1:09:00::",
+                    "tobacco%1:20:00::",
+                    "tomato%1:20:00::",
+                    "vegetable%1:20:00::",
+                    "wheat%1:20:00::",
+                    "yard%1:06:02::",
+                    "plant%1:03:00::"
+                ],
+                "derivation": [
+                    "grower%1:18:00::",
+                    "growth%1:14:00::"
+                ],
+                "id": "grow%2:36:00::",
+                "sent": [
+                    "They grow rye in the field"
+                ],
+                "subcat": [
+                    "vtai",
+                    "vtii"
+                ],
+                "synset": "01743695-v",
+                "tagcount": 3,
+                "template": [
+                    56
+                ]
+            },
+            {
+                "collocation": [
+                    "abscess%1:26:00::",
+                    "allergy%1:26:00::",
+                    "appetite%1:12:00::",
+                    "arthritis%1:26:00::",
+                    "attribute%1:03:00::",
+                    "beard%1:08:00::",
+                    "breast%1:08:01::",
+                    "bump%1:26:00::",
+                    "child%1:18:00::",
+                    "complication%1:26:01::",
+                    "condition%1:26:05::",
+                    "cough%1:26:00::",
+                    "depression%1:26:03::",
+                    "feather%1:05:00::",
+                    "feature%1:08:00::",
+                    "hair%1:08:00::",
+                    "hair%1:08:01::",
+                    "hazard%1:26:00::",
+                    "headache%1:26:00::",
+                    "illness%1:26:00::",
+                    "immunity%1:26:01::",
+                    "infection%1:22:00::",
+                    "muscle%1:08:00::",
+                    "mustache%1:08:00::",
+                    "pain%1:26:00::",
+                    "pneumonia%1:26:00::",
+                    "sensitivity%1:09:00::",
+                    "spot%1:07:00::",
+                    "syndrome%1:26:00::",
+                    "tan%1:26:00::",
+                    "virus%1:05:00::",
+                    "motivation%1:03:00::"
+                ],
+                "id": "grow%2:29:00::",
+                "subcat": [
+                    "vtai",
+                    "vtii"
+                ],
+                "synset": "00094214-v",
+                "tagcount": 3
+            },
+            {
+                "id": "grow%2:30:10::",
+                "sent": [
+                    "Sam and Sue grow"
+                ],
+                "subcat": [
+                    "via",
+                    "vii"
+                ],
+                "synset": "00544490-v",
+                "tagcount": 2,
+                "template": [
+                    14
+                ]
+            },
+            {
+                "id": "grow%2:30:14::",
+                "subcat": [
+                    "via"
+                ],
+                "synset": "00251425-v"
+            }
+        ]
+    }
+]
+]

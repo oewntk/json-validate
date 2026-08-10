@@ -1,0 +1,45 @@
+[
+    {
+        "lemma": "row",
+        "type": "N",
+        "discriminant": "-1",
+        "senseKeys": [
+            "row%1:14:00::",
+            "row%1:17:00::",
+            "row%1:06:00::",
+            "row%1:14:01::",
+            "row%1:07:00::",
+            "row%1:04:00::"
+        ],
+        "pronunciations": [
+            {
+                "value": "ɹəʊ"
+            }
+        ]
+    },
+    {
+        "lemma": "row",
+        "type": "N",
+        "discriminant": "-2",
+        "senseKeys": [
+            "row%1:10:00::"
+        ],
+        "pronunciations": [
+            {
+                "value": "ɹaʊ"
+            }
+        ]
+    },
+    {
+        "lemma": "row",
+        "type": "V",
+        "senseKeys": [
+            "row%2:38:00::"
+        ],
+        "pronunciations": [
+            {
+                "value": "ɹəʊ"
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+{
+    "synsetId": "00001740-n",
+    "type": "N",
+    "domain": "Tops",
+    "members": [
+        "entity"
+    ],
+    "definitions": [
+        "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)"
+    ],
+    "relations": {
+        "hyponym": [
+            "00001930-n",
+            "00002137-n",
+            "04431553-n"
+        ]
+    },
+    "ili": "i35545"
+}
+]

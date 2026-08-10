@@ -1,0 +1,17 @@
+[
+{
+    "id": "row%1:17:00::",
+    "index": 1,
+    "synset": "09440243-n",
+    "lemma": "row",
+    "type": "n",
+    "discriminant": "-1",
+    "tagcount": 1,
+    "relation": {
+        "collocation": [
+            "cloud%1:17:00::",
+            "run%1:11:01::"
+        ]
+    }
+}
+]

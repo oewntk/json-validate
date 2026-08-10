@@ -1,0 +1,23 @@
+[
+{
+    "senseId": "row%1:14:00::",
+    "lexId": {
+        "lemma": "row",
+        "type": "N",
+        "discriminant": "-1"
+    },
+    "synsetId": "08448447-n",
+    "tagCount": 23,
+    "relations": {
+        "collocation": [
+            "arrange%2:35:00::",
+            "arrangement%1:14:00::",
+            "bank%1:14:01::",
+            "chair%1:06:00::",
+            "line%1:10:02::",
+            "point%1:25:02::",
+            "seat%1:15:01::"
+        ]
+    }
+}
+]

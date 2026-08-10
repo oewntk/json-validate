@@ -1,0 +1,46 @@
+[
+{
+    "id": "00001740-v",
+    "type": "v",
+    "domain": "body",
+    "member": [
+        "breathe",
+        "take a breath",
+        "respire",
+        "suspire"
+    ],
+    "definition": [
+        "draw air into, and expel out of, the lungs"
+    ],
+    "example": [
+        "I can breathe better when the air is clean.",
+        "The patient is respiring."
+    ],
+    "relation": {
+        "hypernym": [
+            "02372362-v"
+        ],
+        "entails": [
+            "00005041-v",
+            "00004227-v"
+        ],
+        "similar": [
+            "00002325-v",
+            "00002573-v"
+        ],
+        "hyponym": [
+            "00002573-v",
+            "00002724-v",
+            "00002942-v",
+            "00003826-v",
+            "00004032-v",
+            "00004227-v",
+            "00005041-v",
+            "00006697-v",
+            "00007328-v",
+            "00017024-v"
+        ]
+    },
+    "ili": "i21778"
+}
+]

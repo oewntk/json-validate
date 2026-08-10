@@ -1,0 +1,22 @@
+[
+{
+    "id": "row%1:14:00::",
+    "index": 0,
+    "synset": "08448447-n",
+    "lemma": "row",
+    "type": "n",
+    "discriminant": "-1",
+    "tagcount": 23,
+    "relation": {
+        "collocation": [
+            "arrange%2:35:00::",
+            "arrangement%1:14:00::",
+            "bank%1:14:01::",
+            "chair%1:06:00::",
+            "line%1:10:02::",
+            "point%1:25:02::",
+            "seat%1:15:01::"
+        ]
+    }
+}
+]

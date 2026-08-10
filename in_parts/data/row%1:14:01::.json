@@ -1,0 +1,18 @@
+[
+{
+    "id": "row%1:14:01::",
+    "index": 3,
+    "synset": "08450457-n",
+    "lemma": "row",
+    "type": "n",
+    "discriminant": "-1",
+    "relation": {
+        "collocation": [
+            "arrangement%1:14:00::",
+            "column%1:14:01::",
+            "matrix%1:14:00::",
+            "number%1:23:00::"
+        ]
+    }
+}
+]

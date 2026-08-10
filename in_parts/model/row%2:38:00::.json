@@ -1,0 +1,47 @@
+[
+{
+    "senseId": "row%2:38:00::",
+    "lexId": {
+        "lemma": "row",
+        "type": "V"
+    },
+    "synsetId": "01950855-v",
+    "examples": [
+        {
+            "text": "They row the river"
+        },
+        {
+            "text": "They row down the river"
+        }
+    ],
+    "verbFrames": [
+        "via",
+        "via-pp",
+        "vtai"
+    ],
+    "verbTemplates": [
+        27,
+        28
+    ],
+    "tagCount": 4,
+    "relations": {
+        "derivation": [
+            "row%1:04:00::",
+            "rower%1:18:00::",
+            "rowing%1:04:00::"
+        ],
+        "agent": [
+            "rower%1:18:00::"
+        ],
+        "event": [
+            "row%1:04:00::"
+        ],
+        "collocation": [
+            "boat%1:06:00::",
+            "dinghy%1:06:00::",
+            "lake%1:17:00::",
+            "wind%1:19:00::"
+        ]
+    }
+}
+]

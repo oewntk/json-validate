@@ -1,0 +1,20 @@
+[
+{
+    "synsetId": "00001740-r",
+    "type": "R",
+    "domain": "all",
+    "members": [
+        "a cappella",
+        "a capella"
+    ],
+    "definitions": [
+        "without musical accompaniment"
+    ],
+    "examples": [
+        {
+            "text": "They performed a cappella."
+        }
+    ],
+    "ili": "i18157"
+}
+]

@@ -1,0 +1,15 @@
+[
+{
+    "id": "row%1:04:00::",
+    "index": 5,
+    "synset": "00446336-n",
+    "lemma": "row",
+    "type": "n",
+    "discriminant": "-1",
+    "relation": {
+        "derivation": [
+            "row%2:38:00::"
+        ]
+    }
+}
+]

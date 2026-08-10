@@ -1,0 +1,19 @@
+[
+{
+    "senseId": "row%1:17:00::",
+    "lexId": {
+        "lemma": "row",
+        "type": "N",
+        "discriminant": "-1"
+    },
+    "synsetId": "09440243-n",
+    "indexInLex": 1,
+    "tagCount": 1,
+    "relations": {
+        "collocation": [
+            "cloud%1:17:00::",
+            "run%1:11:01::"
+        ]
+    }
+}
+]

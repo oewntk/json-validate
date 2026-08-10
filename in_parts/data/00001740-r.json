@@ -1,0 +1,18 @@
+[
+{
+    "id": "00001740-r",
+    "type": "r",
+    "domain": "all",
+    "member": [
+        "a cappella",
+        "a capella"
+    ],
+    "definition": [
+        "without musical accompaniment"
+    ],
+    "example": [
+        "They performed a cappella."
+    ],
+    "ili": "i18157"
+}
+]
