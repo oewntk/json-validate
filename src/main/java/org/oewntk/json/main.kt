@@ -47,7 +47,7 @@ fun main(args: Array<String>) {
             } else {
                 println("❌ Validation of $f failed with ${errors.size} error(s):")
                 errors
-                    .take(25)
+                    .take(3)
                     .forEach { error ->
                         println("  - Path: ${error.property} | Message: ${error.message} | Instance: ${error.instanceNode}")
                     }
