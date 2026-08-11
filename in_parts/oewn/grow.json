@@ -1,10 +1,11 @@
 [
-[
     {
         "form": [
             "grew",
             "grown"
         ],
+        "lemma": "grow",
+        "partOfSpeech": "v",
         "pronunciation": [
             {
                 "value": "ɡɹəʊ",
@@ -396,5 +397,4 @@
             }
         ]
     }
-]
 ]
