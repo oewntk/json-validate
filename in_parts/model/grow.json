@@ -2,7 +2,7 @@
 [
     {
         "lemma": "grow",
-        "type": "V",
+        "partOfSpeech": "V",
         "senseKeys": [
             "grow%2:30:03::",
             "grow%2:30:00::",

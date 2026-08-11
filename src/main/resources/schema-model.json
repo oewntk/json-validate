@@ -108,7 +108,7 @@
         "lemma": {
           "$ref": "#/$defs/lemma"
         },
-        "type": {
+        "partOfSpeech": {
           "$ref": "#/$defs/part-of-speech"
         },
         "discriminant": {
@@ -117,7 +117,7 @@
       },
       "required": [
         "lemma",
-        "type"
+        "partOfSpeech"
       ],
       "additionalProperties": false
     },
@@ -325,7 +325,7 @@
         "lemma": {
           "$ref": "#/$defs/lemma"
         },
-        "type": {
+        "partOfSpeech": {
           "$ref": "#/$defs/part-of-speech"
         },
         "discriminant": {
@@ -360,7 +360,7 @@
       },
       "required": [
         "lemma",
-        "type",
+        "partOfSpeech",
         "senseKeys"
       ],
       "additionalProperties": false

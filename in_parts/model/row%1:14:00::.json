@@ -3,7 +3,7 @@
     "senseId": "row%1:14:00::",
     "lexId": {
         "lemma": "row",
-        "type": "N",
+        "partOfSpeech": "N",
         "discriminant": "-1"
     },
     "synsetId": "08448447-n",

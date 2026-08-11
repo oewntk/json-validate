@@ -2,7 +2,7 @@
     "lexes": [
         {
             "lemma": "row",
-            "type": "N",
+            "partOfSpeech": "N",
             "discriminant": "-1",
             "senseKeys": [
                 "row%1:14:00::",
@@ -20,7 +20,7 @@
         },
         {
             "lemma": "row",
-            "type": "N",
+            "partOfSpeech": "N",
             "discriminant": "-2",
             "senseKeys": [
                 "row%1:10:00::"
@@ -33,7 +33,7 @@
         },
         {
             "lemma": "row",
-            "type": "V",
+            "partOfSpeech": "V",
             "senseKeys": [
                 "row%2:38:00::"
             ],
@@ -49,7 +49,7 @@
             "senseId": "row%1:04:00::",
             "lexId": {
                 "lemma": "row",
-                "type": "N",
+                "partOfSpeech": "N",
                 "discriminant": "-1"
             },
             "synsetId": "00446336-n",
@@ -64,7 +64,7 @@
             "senseId": "row%1:06:00::",
             "lexId": {
                 "lemma": "row",
-                "type": "N",
+                "partOfSpeech": "N",
                 "discriminant": "-1"
             },
             "synsetId": "03124680-n",
