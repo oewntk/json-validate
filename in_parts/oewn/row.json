@@ -1,5 +1,8 @@
 [
     {
+        "discriminant": "-1",
+        "lemma": "row",
+        "part-of-speech": "n",
         "pronunciation": [
             {
                 "value": "ɹəʊ"
@@ -61,6 +64,9 @@
         ]
     },
     {
+        "discriminant": "-2",
+        "lemma": "row",
+        "part-of-speech": "n",
         "pronunciation": [
             {
                 "value": "ɹaʊ"
@@ -84,6 +90,8 @@
         ]
     },
     {
+        "lemma": "row",
+        "part-of-speech": "v",
         "pronunciation": [
             {
                 "value": "ɹəʊ"

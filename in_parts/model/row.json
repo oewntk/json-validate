@@ -1,7 +1,7 @@
 [
     {
         "lemma": "row",
-        "type": "N",
+        "partOfSpeech": "N",
         "discriminant": "-1",
         "senseKeys": [
             "row%1:14:00::",
@@ -19,7 +19,7 @@
     },
     {
         "lemma": "row",
-        "type": "N",
+        "partOfSpeech": "N",
         "discriminant": "-2",
         "senseKeys": [
             "row%1:10:00::"
@@ -32,7 +32,7 @@
     },
     {
         "lemma": "row",
-        "type": "V",
+        "partOfSpeech": "V",
         "senseKeys": [
             "row%2:38:00::"
         ],
