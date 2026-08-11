@@ -1,7 +1,7 @@
 [
     {
         "lemma": "row",
-        "type": "n",
+        "partOfSpeech": "n",
         "sense": [
             "row%1:14:00::",
             "row%1:17:00::",
@@ -19,7 +19,7 @@
     },
     {
         "lemma": "row",
-        "type": "n",
+        "partOfSpeech": "n",
         "sense": [
             "row%1:10:00::"
         ],
@@ -32,7 +32,7 @@
     },
     {
         "lemma": "row",
-        "type": "v",
+        "partOfSpeech": "v",
         "sense": [
             "row%2:38:00::"
         ],

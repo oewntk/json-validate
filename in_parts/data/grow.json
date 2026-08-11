@@ -1,8 +1,7 @@
 [
-[
     {
         "lemma": "grow",
-        "type": "v",
+        "partOfSpeech": "v",
         "sense": [
             "grow%2:30:03::",
             "grow%2:30:00::",
@@ -30,5 +29,4 @@
             }
         ]
     }
-]
 ]
