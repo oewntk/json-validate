@@ -27,6 +27,7 @@
         "00007328-v",
         "00017024-v"
     ],
+    "id": "00001740-v",
     "ili": "i21778",
     "members": [
         "breathe",
@@ -34,11 +35,10 @@
         "respire",
         "suspire"
     ],
-    "partOfSpeech": "v",
+    "part-of-speech": "v",
     "similar": [
         "00002325-v",
         "00002573-v"
-    ],
-    "synsetId": "00001740-v"
+    ]
 }
 ]

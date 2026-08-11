@@ -14,11 +14,11 @@
         "We were at last able to buy a car.",
         "able to get a grant for the project"
     ],
+    "id": "00001740-a",
     "ili": "i1",
     "members": [
         "able"
     ],
-    "partOfSpeech": "a",
-    "synsetId": "00001740-a"
+    "part-of-speech": "a"
 }
 ]

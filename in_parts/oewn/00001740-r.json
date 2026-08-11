@@ -7,12 +7,12 @@
     "example": [
         "They performed a cappella."
     ],
+    "id": "00001740-r",
     "ili": "i18157",
     "members": [
         "a cappella",
         "a capella"
     ],
-    "partOfSpeech": "r",
-    "synsetId": "00001740-r"
+    "part-of-speech": "r"
 }
 ]
