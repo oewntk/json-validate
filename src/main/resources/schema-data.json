@@ -1,9 +1,29 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$ref": "#/$defs/bag",
+  "$ref": "#/$defs/data",
   "$defs": {
-    "bag": {
+    "data": {
       "anyOf": [
+        {
+          "type": "object",
+          "anyOf": [
+            {
+              "$ref": "#/$defs/lex"
+            },
+            {
+              "$ref": "#/$defs/synset"
+            },
+            {
+              "$ref": "#/$defs/sense"
+            },
+            {
+              "$ref": "#/$defs/verbFrame"
+            },
+            {
+              "$ref": "#/$defs/verbTemplate"
+            }
+          ]
+        },
         {
           "type": "array",
           "items": {
@@ -16,20 +36,15 @@
               },
               {
                 "$ref": "#/$defs/sense"
+              },
+              {
+                "$ref": "#/$defs/verbFrame"
+              },
+              {
+                "$ref": "#/$defs/verbTemplate"
               }
             ]
           }
-        },
-        {
-          "type": "object",
-          "anyOf": [
-            {
-              "$ref": "#/$defs/verbFrame"
-            },
-            {
-              "$ref": "#/$defs/verbTemplate"
-            }
-          ]
         }
       ]
     },

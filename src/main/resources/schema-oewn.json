@@ -1,9 +1,33 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$ref": "#/$defs/bag",
+  "anyOf": [
+    {
+      "$ref": "#/$defs/grouped_by_key"
+    }
+  ],
   "$defs": {
-    "bag": {
+    "data": {
       "anyOf": [
+        {
+          "type": "object",
+          "anyOf": [
+            {
+              "$ref": "#/$defs/lex"
+            },
+            {
+              "$ref": "#/$defs/synset"
+            },
+            {
+              "$ref": "#/$defs/sense"
+            },
+            {
+              "$ref": "#/$defs/verbFrame"
+            },
+            {
+              "$ref": "#/$defs/verbTemplate"
+            }
+          ]
+        },
         {
           "type": "array",
           "items": {
@@ -16,22 +40,36 @@
               },
               {
                 "$ref": "#/$defs/sense"
+              },
+              {
+                "$ref": "#/$defs/verbFrame"
+              },
+              {
+                "$ref": "#/$defs/verbTemplate"
               }
             ]
           }
-        },
-        {
-          "type": "object",
-          "anyOf": [
-            {
-              "$ref": "#/$defs/verbFrame"
-            },
-            {
-              "$ref": "#/$defs/verbTemplate"
-            }
-          ]
         }
       ]
+    },
+    "grouped_by_key": {
+      "type": "object",
+      "patternProperties": {
+        "^[0-9]{8}-[nvars]$": {
+          "$ref": "#/$defs/synset"
+        },
+        "^(?!\\d{8}-[nvars]$)[a-zA-Z\\u00C0-\\u00D6\\u00D8-\\u00F60-9 \\-.+,!/':]+$": {
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^[nvar](-[0-9]+)?$"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/lex"
+          },
+          "minProperties": 1
+        }
+      },
+      "additionalProperties": false
     },
     "synsetId": {
       "type": "string",
@@ -279,9 +317,22 @@
       "type": "integer",
       "minimum": 0
     },
+    "wikidata1": {
+        "type": "string",
+        "pattern": "^Q[0-9]+$"
+    },
     "wikidata": {
-      "type": "string",
-      "pattern": "^Q[0-9]+(;Q[0-9]+)*$"
+      "anyOf": [
+        {
+          "$ref": "#/$defs/wikidata1"
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/wikidata1"
+          }
+        }
+      ]
     },
     "ili": {
       "type": "string",
@@ -438,7 +489,7 @@
             "$ref": "#/$defs/example"
           }
         },
-        "adjPosition": {
+        "adjposition": {
           "$ref": "#/$defs/adjPosition"
         },
         "subcat": {

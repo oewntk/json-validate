@@ -2,34 +2,58 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "anyOf": [
     {
-      "$ref": "#/$defs/bag"
+      "$ref": "#/$defs/data"
     },
     {
       "$ref": "#/$defs/grouped_by_object_type"
     }
   ],
   "$defs": {
-    "bag": {
-      "type": "array",
-      "items": {
-        "anyOf": [
-          {
-            "$ref": "#/$defs/lex"
-          },
-          {
-            "$ref": "#/$defs/synset"
-          },
-          {
-            "$ref": "#/$defs/sense"
-          },
-          {
-            "$ref": "#/$defs/verbFrame"
-          },
-          {
-            "$ref": "#/$defs/verbTemplate"
+    "data": {
+      "anyOf": [
+        {
+          "type": "object",
+          "anyOf": [
+            {
+              "$ref": "#/$defs/lex"
+            },
+            {
+              "$ref": "#/$defs/synset"
+            },
+            {
+              "$ref": "#/$defs/sense"
+            },
+            {
+              "$ref": "#/$defs/verbFrame"
+            },
+            {
+              "$ref": "#/$defs/verbTemplate"
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/lex"
+              },
+              {
+                "$ref": "#/$defs/synset"
+              },
+              {
+                "$ref": "#/$defs/sense"
+              },
+              {
+                "$ref": "#/$defs/verbFrame"
+              },
+              {
+                "$ref": "#/$defs/verbTemplate"
+              }
+            ]
           }
-        ]
-      }
+        }
+      ]
     },
     "grouped_by_object_type": {
       "type": "object",
