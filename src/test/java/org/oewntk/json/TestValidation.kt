@@ -1,10 +1,24 @@
 package org.oewntk.json
 
+import com.networknt.schema.Error
+import com.networknt.schema.InputFormat
+import com.networknt.schema.Schema
+import com.networknt.schema.SchemaRegistry
+import com.networknt.schema.SpecificationVersion
 import junit.framework.TestCase.assertFalse
 import junit.framework.TestCase.assertTrue
 import org.junit.Test
 
 class TestValidation {
+
+    class TextValidator(schema: String) {
+
+        val schema: Schema = SchemaRegistry
+            .withDefaultDialect(SpecificationVersion.DRAFT_2020_12)
+            .getSchema(schema, InputFormat.JSON)
+
+        fun validate(json: String): List<Error> = schema.validate(json, InputFormat.JSON)
+    }
 
     // Test Schema
     val oewnSchemaJson = """
@@ -53,7 +67,7 @@ class TestValidation {
         }
         """.trimIndent()
 
-    val validator = Validator(schemaJson, asString = true)
+    val validator = TextValidator(schemaJson)
 
     @Test
     fun testValid() {
