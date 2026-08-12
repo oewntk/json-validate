@@ -2,19 +2,21 @@ package org.oewntk.json
 
 import com.networknt.schema.*
 import java.io.File
+import com.networknt.schema.SchemaRegistry
+import com.networknt.schema.SchemaLocation
+import com.networknt.schema.SpecificationVersion
+import com.networknt.schema.InputFormat
 
-class Validator(schema: String, asString: Boolean = false) {
-    private val registry = SchemaRegistry.withDefaultDialect(SpecificationVersion.DRAFT_2020_12)
+class Validator(schema: String) {
 
-    val schema: Schema = if (asString) {
-        registry.getSchema(schema, InputFormat.JSON)
-    } else {
-        val text = Thread.currentThread().contextClassLoader
-            .getResourceAsStream(schema)
-            ?.bufferedReader()?.readText()
-            ?: throw IllegalArgumentException("Schema resource not found: $schema")
-        registry.getSchema(text, InputFormat.JSON)
-    }
+    val schema: Schema =
+        SchemaRegistry
+            .withDefaultDialect(SpecificationVersion.DRAFT_2020_12)
+            .getSchema(SchemaLocation.of("classpath:$schema"))
+            .apply {
+                // eagerly surface $ref resolution problems instead of failing lazily on first validate()
+                initializeValidators()
+            }
 
     fun validate(json: String): List<Error> = schema.validate(json, InputFormat.JSON)
 }
