@@ -22,18 +22,19 @@ class Validator(schema: String) {
 }
 
 private fun toSchema(selector: String): String {
-    when (selector) {
-        "model" -> return "schema-model.json"
-        "data" -> return "schema-data.json"
-        "oewn" -> return "schema-oewn.json"
-        else -> throw IllegalArgumentException("Invalid schema selector $selector")
-    }
+    //when (selector) {
+    //    "model" -> return "schema-model.json"
+    //    "data" -> return "schema-data.json"
+    //    "oewn" -> return "schema-oewn.json"
+    //    else -> throw IllegalArgumentException("Invalid schema selector $selector")
+    //}
+    return "schema-$selector.json"
 }
 
 fun main(args: Array<String>) {
 
-    //val validator = Validator(schemaJson, asString = true)
     val validator = Validator(toSchema(args[0]))
+    println("Schema ${validator.schema.id}")
     args.asSequence()
         .drop(1)
         .forEach { f ->
