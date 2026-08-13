@@ -6,6 +6,9 @@
     },
     {
       "$ref": "#/$defs/grouped_by_key"
+    },
+    {
+      "$ref": "#/$defs/grouped_by_object_type"
     }
   ],
   "$defs": {
@@ -72,6 +75,28 @@
           "minProperties": 1
         }
       },
+      "additionalProperties": false
+    },
+    "grouped_by_object_type": {
+      "type": "object",
+      "properties": {
+        "lexes": {
+          "$ref": "#/$defs/grouped_by_key"
+        },
+        "synsets": {
+          "$ref": "#/$defs/grouped_by_key"
+        },
+        "verbFrames": {
+          "$ref": "#/$defs/grouped_by_key"
+        },
+        "verbTemplates": {
+          "$ref": "#/$defs/grouped_by_key"
+        }
+      },
+      "required": [
+        "lexes",
+        "synsets"
+      ],
       "additionalProperties": false
     }
   }

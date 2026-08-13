@@ -1,6 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$ref": "#/$defs/data",
+  "anyOf": [
+    {
+      "$ref": "#/$defs/data"
+    },
+    {
+      "$ref": "#/$defs/grouped_by_object_type"
+    }
+  ],
   "$defs": {
     "data": {
       "anyOf": [
@@ -47,6 +54,47 @@
           }
         }
       ]
+    },
+    "grouped_by_object_type": {
+      "type": "object",
+      "properties": {
+        "lexes": {
+          "type": "array",
+          "items": {
+            "$ref": "defs-data.json#/$defs/lex"
+          }
+        },
+        "synsets": {
+          "type": "array",
+          "items": {
+            "$ref": "defs-data.json#/$defs/synset"
+          }
+        },
+        "senses": {
+          "type": "array",
+          "items": {
+            "$ref": "defs-data.json#/$defs/sense"
+          }
+        },
+        "verbFrames": {
+          "type": "array",
+          "items": {
+            "$ref": "defs-data.json#/$defs/verbFrame"
+          }
+        },
+        "verbTemplates": {
+          "type": "array",
+          "items": {
+            "$ref": "defs-data.json#/$defs/verbTemplate"
+          }
+        }
+      },
+      "required": [
+        "lexes",
+        "synsets",
+        "senses"
+      ],
+      "additionalProperties": false
     }
   }
 }
