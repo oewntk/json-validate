@@ -2,7 +2,7 @@
     {
         "discriminant": "-1",
         "lemma": "row",
-        "part-of-speech": "n",
+        "partOfSpeech": "n",
         "pronunciation": [
             {
                 "value": "ɹəʊ"
@@ -66,7 +66,7 @@
     {
         "discriminant": "-2",
         "lemma": "row",
-        "part-of-speech": "n",
+        "partOfSpeech": "n",
         "pronunciation": [
             {
                 "value": "ɹaʊ"
@@ -91,7 +91,7 @@
     },
     {
         "lemma": "row",
-        "part-of-speech": "v",
+        "partOfSpeech": "v",
         "pronunciation": [
             {
                 "value": "ɹəʊ"
