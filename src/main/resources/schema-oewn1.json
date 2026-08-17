@@ -21,7 +21,6 @@
       },
       "additionalProperties": false
     },
-
     "grouped_by_object_type": {
       "type": "object",
       "properties": {
