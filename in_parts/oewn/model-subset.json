@@ -18,13 +18,13 @@
     "members": [
       "able"
     ],
-    "part-of-speech": "a"
+    "partOfSpeech": "a"
   },
   "row": {
     "n-1": {
       "discriminant": "-1",
       "lemma": "row",
-      "part-of-speech": "n",
+      "partOfSpeech": "n",
       "pronunciation": [
         {
           "value": "ɹəʊ"
@@ -88,7 +88,7 @@
     "n-2": {
       "discriminant": "-2",
       "lemma": "row",
-      "part-of-speech": "n",
+      "partOfSpeech": "n",
       "pronunciation": [
         {
           "value": "ɹaʊ"
@@ -113,7 +113,7 @@
     },
     "v": {
       "lemma": "row",
-      "part-of-speech": "v",
+      "partOfSpeech": "v",
       "pronunciation": [
         {
           "value": "ɹəʊ"

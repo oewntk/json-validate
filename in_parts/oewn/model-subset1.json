@@ -19,13 +19,13 @@
       "members": [
         "able"
       ],
-      "part-of-speech": "a"
+      "partOfSpeech": "a"
     },
     "row": {
       "n-1": {
         "discriminant": "-1",
         "lemma": "row",
-        "part-of-speech": "n",
+        "partOfSpeech": "n",
         "pronunciation": [
           {
             "value": "ɹəʊ"
@@ -89,7 +89,7 @@
       "n-2": {
         "discriminant": "-2",
         "lemma": "row",
-        "part-of-speech": "n",
+        "partOfSpeech": "n",
         "pronunciation": [
           {
             "value": "ɹaʊ"
@@ -114,7 +114,7 @@
       },
       "v": {
         "lemma": "row",
-        "part-of-speech": "v",
+        "partOfSpeech": "v",
         "pronunciation": [
           {
             "value": "ɹəʊ"
@@ -180,7 +180,7 @@
         "members": [
           "able"
         ],
-        "part-of-speech": "a"
+        "partOfSpeech": "a"
       },
       "00001740-n": {
         "definition": [
@@ -191,7 +191,7 @@
         "members": [
           "entity"
         ],
-        "part-of-speech": "n"
+        "partOfSpeech": "n"
       },
       "00001740-r": {
         "definition": [
@@ -206,7 +206,7 @@
           "a cappella",
           "a capella"
         ],
-        "part-of-speech": "r"
+        "partOfSpeech": "r"
       },
       "00001740-v": {
         "definition": [
@@ -231,7 +231,7 @@
           "respire",
           "suspire"
         ],
-        "part-of-speech": "v",
+        "partOfSpeech": "v",
         "similar": [
           "00002325-v",
           "00002573-v"
