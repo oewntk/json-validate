@@ -274,7 +274,7 @@
         "lemma": {
           "$ref": "#/$defs/lemma"
         },
-        "part-of-speech": {
+        "partOfSpeech": {
           "$ref": "#/$defs/part-of-speech"
         },
         "discriminant": {
@@ -318,7 +318,7 @@
         "id": {
           "$ref": "#/$defs/synsetId"
         },
-        "part-of-speech": {
+        "partOfSpeech": {
           "$ref": "#/$defs/synsetType"
         },
         "domain": {
@@ -368,7 +368,7 @@
       },
       "additionalProperties": false,
       "required": [
-        "part-of-speech",
+        "partOfSpeech",
         "domain",
         "members",
         "definition"

@@ -22,18 +22,6 @@
           "items": {
             "$ref": "defs-data.json#/$defs/sense"
           }
-        },
-        "verbFrames": {
-          "type": "array",
-          "items": {
-            "$ref": "defs-data.json#/$defs/verbFrame"
-          }
-        },
-        "verbTemplates": {
-          "type": "array",
-          "items": {
-            "$ref": "defs-data.json#/$defs/verbTemplate"
-          }
         }
       },
       "required": [

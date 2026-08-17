@@ -29,12 +29,6 @@
         },
         "synsets": {
           "$ref": "#/$defs/grouped_by_key"
-        },
-        "verbFrames": {
-          "$ref": "#/$defs/grouped_by_key"
-        },
-        "verbTemplates": {
-          "$ref": "#/$defs/grouped_by_key"
         }
       },
       "additionalProperties": false
