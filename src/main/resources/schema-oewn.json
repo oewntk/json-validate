@@ -61,7 +61,7 @@
     "grouped_by_key": {
       "type": "object",
       "patternProperties": {
-        "^[0-9]{8}-[nvars]$": {
+        "^\\d{8}-[nvars]$": {
           "$ref": "defs-oewn.json#/$defs/synset"
         },
         "^(?!\\d{8}-[nvars]$)[a-zA-Z\\u00C0-\\u00D6\\u00D8-\\u00F60-9 \\-.+,!/':]+$": {
