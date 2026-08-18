@@ -1,8 +1,287 @@
-{
-    "lexes": [
-     ],
-    "senses": [
+[
+  {
+    "id": "00001740-a",
+    "type": "a",
+    "domain": "all",
+    "member": [
+      "able"
     ],
-    "synsets": [
+    "definition": [
+      "(usually followed by ‘to’) having the necessary means or skill or know-how or authority to do something"
+    ],
+    "example": [
+      "able to swim",
+      "She was able to program her computer.",
+      "We were at last able to buy a car.",
+      "able to get a grant for the project"
+    ],
+    "relation": {
+      "attribute": [
+        "05207437-n",
+        "05624029-n"
+      ]
+    },
+    "ili": "i1"
+  },
+  {
+    "id": "00001740-n",
+    "type": "n",
+    "domain": "Tops",
+    "member": [
+      "entity"
+    ],
+    "definition": [
+      "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)"
+    ],
+    "relation": {
+      "hyponym": [
+        "00001930-n",
+        "00002137-n",
+        "04431553-n"
+      ]
+    },
+    "ili": "i35545"
+  },
+  {
+    "id": "00001740-r",
+    "type": "r",
+    "domain": "all",
+    "member": [
+      "a cappella",
+      "a capella"
+    ],
+    "definition": [
+      "without musical accompaniment"
+    ],
+    "example": [
+      "They performed a cappella."
+    ],
+    "ili": "i18157"
+  },
+  {
+    "id": "00001740-v",
+    "type": "v",
+    "domain": "body",
+    "member": [
+      "breathe",
+      "take a breath",
+      "respire",
+      "suspire"
+    ],
+    "definition": [
+      "draw air into, and expel out of, the lungs"
+    ],
+    "example": [
+      "I can breathe better when the air is clean.",
+      "The patient is respiring."
+    ],
+    "relation": {
+      "hypernym": [
+        "02372362-v"
+      ],
+      "entails": [
+        "00005041-v",
+        "00004227-v"
+      ],
+      "similar": [
+        "00002325-v",
+        "00002573-v"
+      ],
+      "hyponym": [
+        "00002573-v",
+        "00002724-v",
+        "00002942-v",
+        "00003826-v",
+        "00004032-v",
+        "00004227-v",
+        "00005041-v",
+        "00006697-v",
+        "00007328-v",
+        "00017024-v"
+      ]
+    },
+    "ili": "i21778"
+  },
+  {
+    "id": "row%1:04:00::",
+    "index": 5,
+    "synset": "00446336-n",
+    "lemma": "row",
+    "partOfSpeech": "n",
+    "discriminant": "-1",
+    "relation": {
+      "derivation": [
+        "row%2:38:00::"
+      ]
+    }
+  },
+  {
+    "id": "row%1:06:00::",
+    "index": 2,
+    "synset": "03124680-n",
+    "lemma": "row",
+    "partOfSpeech": "n",
+    "discriminant": "-1",
+    "tagcount": 1
+  },
+  {
+    "id": "row%1:07:00::",
+    "index": 4,
+    "synset": "05052831-n",
+    "lemma": "row",
+    "partOfSpeech": "n",
+    "discriminant": "-1",
+    "relation": {
+      "collocation": [
+        "break%1:04:01::"
+      ]
+    }
+  },
+  {
+    "id": "row%1:10:00::",
+    "index": 0,
+    "synset": "07198809-n",
+    "lemma": "row",
+    "partOfSpeech": "n",
+    "discriminant": "-2",
+    "tagcount": 3,
+    "relation": {
+      "collocation": [
+        "argue%2:32:00::",
+        "blow_up%2:37:00::",
+        "boardroom%1:06:00::",
+        "cause%2:36:00::",
+        "cover%2:42:01::",
+        "originate%2:42:00::",
+        "talk%2:32:01::"
+      ]
+    }
+  },
+  {
+    "id": "row%1:14:00::",
+    "index": 0,
+    "synset": "08448447-n",
+    "lemma": "row",
+    "partOfSpeech": "n",
+    "discriminant": "-1",
+    "tagcount": 23,
+    "relation": {
+      "collocation": [
+        "arrange%2:35:00::",
+        "arrangement%1:14:00::",
+        "bank%1:14:01::",
+        "chair%1:06:00::",
+        "line%1:10:02::",
+        "point%1:25:02::",
+        "seat%1:15:01::"
+      ]
+    }
+  },
+  {
+    "id": "row%1:14:01::",
+    "index": 3,
+    "synset": "08450457-n",
+    "lemma": "row",
+    "partOfSpeech": "n",
+    "discriminant": "-1",
+    "relation": {
+      "collocation": [
+        "arrangement%1:14:00::",
+        "column%1:14:01::",
+        "matrix%1:14:00::",
+        "number%1:23:00::"
+      ]
+    }
+  },
+  {
+    "id": "row%1:17:00::",
+    "index": 1,
+    "synset": "09440243-n",
+    "lemma": "row",
+    "partOfSpeech": "n",
+    "discriminant": "-1",
+    "tagcount": 1,
+    "relation": {
+      "collocation": [
+        "cloud%1:17:00::",
+        "run%1:11:01::"
+      ]
+    }
+  },
+  {
+    "id": "row%2:38:00::",
+    "index": 0,
+    "synset": "01950855-v",
+    "lemma": "row",
+    "partOfSpeech": "v",
+    "example": [
+      "They row the river",
+      "They row down the river"
+    ],
+    "verbFrame": "via;via-pp;vtai",
+    "verbTemplate": "27;28",
+    "tagcount": 4,
+    "relation": {
+      "derivation": [
+        "row%1:04:00::",
+        "rower%1:18:00::",
+        "rowing%1:04:00::"
+      ],
+      "agent": [
+        "rower%1:18:00::"
+      ],
+      "event": [
+        "row%1:04:00::"
+      ],
+      "collocation": [
+        "boat%1:06:00::",
+        "dinghy%1:06:00::",
+        "lake%1:17:00::",
+        "wind%1:19:00::"
+      ]
+    }
+  },
+  {
+    "lemma": "row",
+    "partOfSpeech": "n",
+    "sense": [
+      "row%1:14:00::",
+      "row%1:17:00::",
+      "row%1:06:00::",
+      "row%1:14:01::",
+      "row%1:07:00::",
+      "row%1:04:00::"
+    ],
+    "discriminant": "-1",
+    "pronunciation": [
+      {
+        "value": "ɹəʊ"
+      }
     ]
-}
+  },
+  {
+    "lemma": "row",
+    "partOfSpeech": "n",
+    "sense": [
+      "row%1:10:00::"
+    ],
+    "discriminant": "-2",
+    "pronunciation": [
+      {
+        "value": "ɹaʊ"
+      }
+    ]
+  },
+  {
+    "lemma": "row",
+    "partOfSpeech": "v",
+    "sense": [
+      "row%2:38:00::"
+    ],
+    "pronunciation": [
+      {
+        "value": "ɹəʊ"
+      }
+    ]
+  }
+]
