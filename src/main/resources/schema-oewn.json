@@ -1,6 +1,5 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://oewntk.githumb.io/schema/oewn",
   "title": "oewn format",
   "description": "oewn format (lex embeds sense)",
   "anyOf": [

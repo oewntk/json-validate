@@ -1,4 +1,7 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "flat data format defs",
+  "description": "defs for flat data format (lex does not embed sense)",
   "$defs": {
     "synsetId": {
       "type": "string",

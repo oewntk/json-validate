@@ -1,4 +1,7 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "model data format defs",
+  "description": "defs for model format (lex does not embed sense)",
   "$defs": {
     "synsetId": {
       "type": "string",

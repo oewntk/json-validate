@@ -1,6 +1,5 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://oewntk.githumb.io/schema/data",
   "title": "flat data format",
   "description": "flat data format (lex does not embed sense)",
   "anyOf": [
