@@ -1,5 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oewntk.githumb.io/schema/templates",
+  "title": "templates",
+  "description": "verb templates",
   "$ref": "#/$defs/data",
   "$defs": {
     "data": {

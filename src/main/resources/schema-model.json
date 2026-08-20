@@ -1,5 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oewntk.githumb.io/schema/model",
+  "title": "model data format",
+  "description": "model format (lex does not embed sense)",
   "anyOf": [
     {
       "$ref": "#/$defs/data"

@@ -1,5 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oewntk.githumb.io/schema/data1",
+  "title": "flat one data format",
+  "description": "flat one data format (lex does not embed sense)",
   "$ref": "#/$defs/grouped_by_object_type",
   "$defs": {
     "grouped_by_object_type": {
