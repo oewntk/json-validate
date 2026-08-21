@@ -12,7 +12,7 @@ on_err() {
 }
 trap on_err ERR
 
-jar=json-validate-3.0.1-uber.jar
+jar=json-validate-3.0.1-SNAPSHOT-uber.jar
 if [ ! -e "${jar}" ]; then
   if [ ! -e "target/${jar}" ]; then
     echo "Non existing uber jar" >&2
