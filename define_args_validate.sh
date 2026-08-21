@@ -13,7 +13,7 @@ export BY_KEY_VALIDATE=(
 [DATA_SUBSET]="data    $IN2/data/model-subset.json"
 [DATA_SUBSET1]="data1  $IN2/data/model-subset1.json"
 [DATA_WHOLE1]="data    $IN/json_data1/oewn.json $IN/json_data1/oewn-frames.json $IN/json_data1/oewn-templates.json"
-[DATA_WHOLE]="data     $IN/json_data/oewn-lexes.json $IN/json_data/oewn-synsets.json $IN/json_data/oewn-senses.json $IN/json_data/oewn-frames.json $IN/json_data/oewn-templates.json"
+[DATA_WHOLE]="data     $IN/json_data_je/oewn-lexes.json $IN/json_data_je/oewn-synsets.json $IN/json_data_je/oewn-senses.json $IN/json_data_je/oewn-frames.json $IN/json_data_je/oewn-templates.json"
 [DATA1_WHOLE1]="data1  $IN/json_data1/oewn.json"
 
 [OEWN_PARTS]="oewn     $IN2/oewn/00001740-a.json $IN2/oewn/00001740-n.json $IN2/oewn/00001740-v.json $IN2/oewn/00001740-r.json $IN2/oewn/row%1:04:00::.json $IN2/oewn/row%1:06:00::.json $IN2/oewn/row%1:07:00::.json $IN2/oewn/row%1:10:00::.json $IN2/oewn/row%1:14:00::.json $IN2/oewn/row%1:14:01::.json $IN2/oewn/row%1:17:00::.json $IN2/oewn/row%2:38:00::.json $IN2/oewn/row.json $IN2/oewn/grow.json"
@@ -23,8 +23,8 @@ export BY_KEY_VALIDATE=(
 [OEWN_WHOLE1]="oewn    $IN/json1/oewn.json"
 [OEWN1_WHOLE1]="oewn1  $IN/json1/oewn.json"
 
-[FRAMES]="frames       $IN/json/frames.json $IN/json1/frames.json $IN/json_data/oewn-frames.json $IN/json_data1/oewn-frames.json"
-[TEMPLATES]="templates $IN/json/templates.json $IN/json1/templates.json $IN/json_data/oewn-templates.json $IN/json_data1/oewn-templates.json"
+[FRAMES]="frames       $IN/json/frames.json $IN/json1/frames.json $IN/json_data_je/oewn-frames.json $IN/json_data1/oewn-frames.json"
+[TEMPLATES]="templates $IN/json/templates.json $IN/json1/templates.json $IN/json_data_je/oewn-templates.json $IN/json_data1/oewn-templates.json"
 )
 export KEYS_VALIDATE="${!BY_KEY_VALIDATE[@]}"
 export KEYS_VALIDATE="
