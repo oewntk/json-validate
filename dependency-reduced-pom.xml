@@ -4,7 +4,7 @@
   <groupId>io.github.oewntk</groupId>
   <artifactId>json-validate</artifactId>
   <name>json validate</name>
-  <version>3.0.1-SNAPSHOT</version>
+  <version>3.0.1</version>
   <description>Validate JSON file.</description>
   <url>https://github.com/oewntk/json-validate</url>
   <issueManagement>
