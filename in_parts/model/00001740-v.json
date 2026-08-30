@@ -13,10 +13,10 @@
     ],
     "examples": [
         {
-            "text": "I can breathe better when the air is clean."
+            "text": "I can breathe better when the air is clean"
         },
         {
-            "text": "The patient is respiring."
+            "text": "The patient is respiring"
         }
     ],
     "relations": {

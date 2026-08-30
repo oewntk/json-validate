@@ -4,10 +4,5 @@
     "synset": "05052831-n",
     "lemma": "row",
     "partOfSpeech": "n",
-    "discriminant": "-1",
-    "relation": {
-        "collocation": [
-            "break%1:04:01::"
-        ]
-    }
+    "discriminant": "-1"
 }
