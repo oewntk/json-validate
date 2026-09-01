@@ -39,9 +39,9 @@ class TestValidation {
         """.trimIndent()
 
     // Test Schema
-    val schemaJson = """
+    val schemaJson = $$"""
         {
-          "${'$'}schema-model.json": "https://json-schema.org/draft/2020-12/schema",
+          "$schema-model.json": "https://json-schema.org/draft/2020-12/schema",
           "type": "object",
           "properties": {
             "name": { "type": "string" },
