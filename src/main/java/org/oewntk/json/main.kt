@@ -70,11 +70,13 @@ fun main(args: Array<String>) {
             println("-$f is valid")
         } else {
             System.err.println("❌ Validation of $f failed with ${errors.size} error(s):")
-            errors
-                .take(3)
-                .forEach { error ->
-                    System.err.println("  - Path: ${error.property} | Message: ${error.message} | Instance: ${error.instanceNode}")
-                }
+            if (verbose) {
+                errors
+                    .take(3)
+                    .forEach { error ->
+                        System.err.println("  - Path: ${error.property} | Message: ${error.message} | Instance: ${error.instanceNode}")
+                    }
+            }
             exitProcess(1)
         }
     }
