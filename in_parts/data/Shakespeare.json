@@ -1,0 +1,19 @@
+[
+    {
+        "lemma": "Shakespeare",
+        "partOfSpeech": "e",
+        "sense": [
+            "shakespeare%1:18:00::"
+        ],
+        "pronunciation": [
+            {
+                "value": "ˈʃeɪkspɪɹ",
+                "variety": "US"
+            },
+            {
+                "value": "ˈʃeɪkspɪə",
+                "variety": "GB"
+            }
+        ]
+    }
+]

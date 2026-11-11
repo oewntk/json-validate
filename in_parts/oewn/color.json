@@ -1,0 +1,244 @@
+[
+    {
+        "lemma": "color",
+        "partOfSpeech": "a",
+        "pronunciation": [
+            {
+                "value": "ˈkʌl.ɚ",
+                "variety": "US"
+            },
+            {
+                "value": "ˈkʌl.ə(ɹ)",
+                "variety": "GB"
+            }
+        ],
+        "sense": [
+            {
+                "antonym": [
+                    "black-and-white%3:00:00::"
+                ],
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%3:00:00::",
+                "synset": "00395196-a",
+                "tagcount": 4
+            }
+        ]
+    },
+    {
+        "lemma": "color",
+        "partOfSpeech": "n",
+        "pronunciation": [
+            {
+                "value": "ˈkʌl.ɚ",
+                "variety": "US"
+            },
+            {
+                "value": "ˈkʌl.ə(ɹ)",
+                "variety": "GB"
+            }
+        ],
+        "sense": [
+            {
+                "antonym": [
+                    "colorlessness%1:07:00::"
+                ],
+                "derivation": [
+                    "colorist%1:18:00::",
+                    "color%2:36:01::",
+                    "color%2:30:01::",
+                    "color%2:30:00::",
+                    "colorize%2:30:03::"
+                ],
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%1:07:00::",
+                "synset": "04963771-n",
+                "tagcount": 48
+            },
+            {
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%1:07:03::",
+                "synset": "05200606-n",
+                "tagcount": 4
+            },
+            {
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%1:07:02::",
+                "synset": "04995727-n",
+                "tagcount": 3
+            },
+            {
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%1:07:04::",
+                "synset": "04685309-n",
+                "tagcount": 1
+            },
+            {
+                "derivation": [
+                    "colorist%1:18:00::"
+                ],
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%1:27:00::",
+                "synset": "15009532-n"
+            },
+            {
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%1:09:01::",
+                "synset": "05853190-n"
+            },
+            {
+                "derivation": [
+                    "colorist%1:18:00::"
+                ],
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%1:07:01::",
+                "synset": "04682325-n"
+            }
+        ]
+    },
+    {
+        "lemma": "color",
+        "partOfSpeech": "v",
+        "pronunciation": [
+            {
+                "value": "ˈkʌl.ɚ",
+                "variety": "US"
+            },
+            {
+                "value": "ˈkʌl.ə(ɹ)",
+                "variety": "GB"
+            }
+        ],
+        "sense": [
+            {
+                "antonym": [
+                    "discolor%2:30:01::"
+                ],
+                "derivation": [
+                    "coloration%1:04:00::",
+                    "color%1:07:00::",
+                    "coloring%1:13:00::",
+                    "coloring%1:07:00::"
+                ],
+                "event": [
+                    "coloration%1:04:00::"
+                ],
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%2:30:00::",
+                "sent": [
+                    "They color their hair"
+                ],
+                "subcat": [
+                    "vtai",
+                    "vtii"
+                ],
+                "synset": "00284671-v",
+                "tagcount": 7,
+                "template": [
+                    146
+                ],
+                "undergoer": [
+                    "color%1:07:00::"
+                ],
+                "uses": [
+                    "color%1:07:00::"
+                ]
+            },
+            {
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%2:32:00::",
+                "subcat": [
+                    "vtii"
+                ],
+                "synset": "00838605-v",
+                "tagcount": 2
+            },
+            {
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%2:41:00::",
+                "subcat": [
+                    "vtii"
+                ],
+                "synset": "02542758-v",
+                "tagcount": 1
+            },
+            {
+                "derivation": [
+                    "colorist%1:18:00::",
+                    "coloration%1:04:00::",
+                    "color%1:07:00::"
+                ],
+                "event": [
+                    "coloration%1:04:00::"
+                ],
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%2:36:01::",
+                "subcat": [
+                    "vtai",
+                    "vtii"
+                ],
+                "synset": "01700543-v",
+                "undergoer": [
+                    "color%1:07:00::"
+                ],
+                "uses": [
+                    "color%1:07:00::"
+                ]
+            },
+            {
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%2:32:01::",
+                "subcat": [
+                    "vtai"
+                ],
+                "synset": "00838812-v"
+            },
+            {
+                "derivation": [
+                    "color%1:07:00::",
+                    "coloring%1:04:00::"
+                ],
+                "exemplifies": [
+                    "87027384-n"
+                ],
+                "id": "color%2:30:01::",
+                "result": [
+                    "color%1:07:00::"
+                ],
+                "subcat": [
+                    "via",
+                    "vii"
+                ],
+                "synset": "00281861-v",
+                "undergoer": [
+                    "color%1:07:00::"
+                ]
+            }
+        ]
+    }
+]

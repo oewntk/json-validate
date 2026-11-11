@@ -1,0 +1,64 @@
+[
+    {
+        "lemma": "color",
+        "partOfSpeech": "a",
+        "sense": [
+            "color%3:00:00::"
+        ],
+        "pronunciation": [
+            {
+                "value": "ˈkʌl.ɚ",
+                "variety": "US"
+            },
+            {
+                "value": "ˈkʌl.ə(ɹ)",
+                "variety": "GB"
+            }
+        ]
+    },
+    {
+        "lemma": "color",
+        "partOfSpeech": "n",
+        "sense": [
+            "color%1:07:00::",
+            "color%1:07:03::",
+            "color%1:07:02::",
+            "color%1:07:04::",
+            "color%1:27:00::",
+            "color%1:09:01::",
+            "color%1:07:01::"
+        ],
+        "pronunciation": [
+            {
+                "value": "ˈkʌl.ɚ",
+                "variety": "US"
+            },
+            {
+                "value": "ˈkʌl.ə(ɹ)",
+                "variety": "GB"
+            }
+        ]
+    },
+    {
+        "lemma": "color",
+        "partOfSpeech": "v",
+        "sense": [
+            "color%2:30:00::",
+            "color%2:32:00::",
+            "color%2:41:00::",
+            "color%2:36:01::",
+            "color%2:32:01::",
+            "color%2:30:01::"
+        ],
+        "pronunciation": [
+            {
+                "value": "ˈkʌl.ɚ",
+                "variety": "US"
+            },
+            {
+                "value": "ˈkʌl.ə(ɹ)",
+                "variety": "GB"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+{
+    "pronunciation": [
+        {
+            "value": "ˈʃeɪkspɪɹ",
+            "variety": "US"
+        },
+        {
+            "value": "ˈʃeɪkspɪə",
+            "variety": "GB"
+        }
+    ],
+    "sense": [
+        {
+            "derivation": [
+                "shakespearian%3:01:00::",
+                "shakespearean%3:01:00::"
+            ],
+            "id": "shakespeare%1:18:00::",
+            "synset": "11315186-e",
+            "tagcount": 11
+        }
+    ]
+}

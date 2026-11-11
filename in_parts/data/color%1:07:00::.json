@@ -1,0 +1,23 @@
+{
+    "id": "color%1:07:00::",
+    "index": 0,
+    "synset": "04963771-n",
+    "lemma": "color",
+    "partOfSpeech": "n",
+    "tagcount": 48,
+    "relation": {
+        "antonym": [
+            "colorlessness%1:07:00::"
+        ],
+        "exemplifies": [
+            "87027384-n"
+        ],
+        "derivation": [
+            "colorist%1:18:00::",
+            "color%2:36:01::",
+            "color%2:30:01::",
+            "color%2:30:00::",
+            "colorize%2:30:03::"
+        ]
+    }
+}

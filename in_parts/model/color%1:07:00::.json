@@ -1,0 +1,38 @@
+{
+    "senseId": "color%1:07:00::",
+    "lexId": {
+        "lemma": "color",
+        "partOfSpeech": "N"
+    },
+    "synsetId": "04963771-n",
+    "tagCount": 48,
+    "relations": {
+        "antonym": [
+            {
+                "id": "colorlessness%1:07:00::"
+            }
+        ],
+        "exemplifies": [
+            {
+                "id": "87027384-n"
+            }
+        ],
+        "derivation": [
+            {
+                "id": "colorist%1:18:00::"
+            },
+            {
+                "id": "color%2:36:01::"
+            },
+            {
+                "id": "color%2:30:01::"
+            },
+            {
+                "id": "color%2:30:00::"
+            },
+            {
+                "id": "colorize%2:30:03::"
+            }
+        ]
+    }
+}

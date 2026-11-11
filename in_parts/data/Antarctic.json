@@ -1,0 +1,21 @@
+[
+    {
+        "lemma": "Antarctic",
+        "partOfSpeech": "a",
+        "sense": [
+            "antarctic%5:00:00:polar:00"
+        ],
+        "pronunciation": [
+            {
+                "value": "ænˈtɑːktɪk"
+            }
+        ]
+    },
+    {
+        "lemma": "Antarctic",
+        "partOfSpeech": "e",
+        "sense": [
+            "antarctic%1:15:00::"
+        ]
+    }
+]
