@@ -225,7 +225,21 @@
         "verb.possession",
         "verb.social",
         "verb.stative",
-        "verb.weather"
+        "verb.weather",
+        "name.act",
+        "name.animal",
+        "name.artifact",
+        "name.cognition",
+        "name.communication",
+        "name.event",
+        "name.group",
+        "name.location",
+        "name.object",
+        "name.person",
+        "name.plant",
+        "name.possession",
+        "name.state",
+        "name.time"
       ]
     },
     "example": {
