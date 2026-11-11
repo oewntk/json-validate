@@ -62,12 +62,13 @@
       "type": "object",
       "properties": {
         "id": {
-          "type": "string"
+          "oneOf": [
+            { "$ref": "#/$defs/synsetId" },
+            { "$ref": "#/$defs/senseKey" }
+          ]
         }
       },
-      "required": [
-        "id"
-      ]
+      "required": ["id"]
     },
     "synsetRelation": {
       "type": "string",
