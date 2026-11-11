@@ -9,7 +9,9 @@
     "indexInLex": 5,
     "relations": {
         "derivation": [
-            "row%2:38:00::"
+            {
+                "id": "row%2:38:00::"
+            }
         ]
     }
 }
