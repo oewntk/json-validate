@@ -122,6 +122,17 @@
         "vehicle"
       ]
     },
+    "relationTarget": {
+      "type": "string",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/synsetId"
+        },
+        {
+          "$ref": "#/$defs/senseKey"
+        }
+      ]
+    },
     "domain": {
       "type": "string",
       "enum": [
@@ -350,7 +361,7 @@
           "additionalProperties": {
             "type": "array",
             "items": {
-              "$ref": "#/$defs/synsetId"
+              "$ref": "#/$defs/relationTarget"
             }
           }
         },
@@ -403,7 +414,7 @@
           "additionalProperties": {
             "type": "array",
             "items": {
-              "$ref": "#/$defs/senseKey"
+              "$ref": "#/$defs/relationTarget"
             }
           }
         },

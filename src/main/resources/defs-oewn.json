@@ -122,6 +122,17 @@
         "vehicle"
       ]
     },
+    "relationTarget": {
+      "type": "string",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/synsetId"
+        },
+        {
+          "$ref": "#/$defs/senseKey"
+        }
+      ]
+    },
     "domain": {
       "type": "string",
       "enum": [
@@ -367,7 +378,7 @@
         "^(also|attribute|causes|domain_region|domain_topic|entails|exemplifies|has_domain_region|has_domain_topic|holo_member|holo_part|holo_substance|hypernym|hyponym|instance_hypernym|instance_hyponym|is_caused_by|is_entailed_by|is_exemplified_by|mero_member|mero_part|mero_substance|other|similar)$": {
           "type": "array",
           "items": {
-            "$ref": "#/$defs/synsetId"
+            "$ref": "#/$defs/relationTarget"
           }
         }
       },
@@ -409,7 +420,7 @@
           "additionalProperties": {
             "type": "array",
             "items": {
-              "$ref": "#/$defs/senseKey"
+              "$ref": "#/$defs/relationTarget"
             }
           }
         },
