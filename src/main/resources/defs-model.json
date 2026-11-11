@@ -58,6 +58,17 @@
       "type": "string",
       "pattern": "^[a-zA-Z\\u00C0-\\u00D6\\u00D8-\\u00F60-9 \\-.+,!/':_]+%\\d+:\\d+:\\d+:[a-z0-9_'/\\-.]*:\\d*$"
     },
+    "relationTarget": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
     "synsetRelation": {
       "type": "string",
       "enum": [
@@ -342,7 +353,7 @@
           "additionalProperties": {
             "type": "array",
             "items": {
-              "$ref": "#/$defs/synsetId"
+              "$ref": "#/$defs/relationTarget"
             }
           }
         },
@@ -392,7 +403,7 @@
           "additionalProperties": {
             "type": "array",
             "items": {
-              "$ref": "#/$defs/senseKey"
+              "$ref": "#/$defs/relationTarget"
             }
           }
         },
