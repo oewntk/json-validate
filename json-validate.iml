@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/in_parts" />
       <excludeFolder url="file://$MODULE_DIR$/json-validate.iml" />
       <excludeFolder url="file://$MODULE_DIR$/json-validate-3.0.1-uber.jar" />
+      <excludeFolder url="file://$MODULE_DIR$/in-pr" />
     </content>
   </component>
 </module>
