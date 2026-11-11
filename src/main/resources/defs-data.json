@@ -5,7 +5,7 @@
   "$defs": {
     "synsetId": {
       "type": "string",
-      "pattern": "^\\d{8}-[nvars]$"
+      "pattern": "^\\d{8}-[nvarse]$"
     },
     "lemma": {
       "type": "string",
@@ -17,7 +17,8 @@
         "n",
         "v",
         "a",
-        "r"
+        "r",
+        "e"
       ]
     },
     "synsetType": {
@@ -27,7 +28,8 @@
         "v",
         "a",
         "r",
-        "s"
+        "s",
+        "e"
       ]
     },
     "discriminant": {

@@ -63,13 +63,13 @@
     "grouped_by_key": {
       "type": "object",
       "patternProperties": {
-        "^\\d{8}-[nvars]$": {
+        "^\\d{8}-[nvarse]$": {
           "$ref": "defs-oewn.json#/$defs/synset"
         },
-        "^(?!\\d{8}-[nvars]$)[a-zA-Z\\u00C0-\\u00D6\\u00D8-\\u00F60-9 \\-.+,!/':]+$": {
+        "^(?!\\d{8}-[nvarse]$)[a-zA-Z\\u00C0-\\u00D6\\u00D8-\\u00F60-9 \\-.+,!/':]+$": {
           "type": "object",
           "propertyNames": {
-            "pattern": "^[nvar](-[0-9]+)?$"
+            "pattern": "^[nvare](-[0-9]+)?$"
           },
           "additionalProperties": {
             "$ref": "defs-oewn.json#/$defs/lex"
